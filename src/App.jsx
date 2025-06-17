@@ -5,6 +5,8 @@ import {
   faTwitter,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
+import logo  from "/assets/logo.svg";
+import dashboard from "/assets/illustration-dashboard.png";
 
 const App = () => {
   const [email, setEmail] = useState("");
@@ -23,7 +25,7 @@ const App = () => {
   };
   return (
     <section className="p-10">
-      <img src="/public/assets/logo.svg" alt="logo" className="mx-auto mt-10" />
+      <img src={logo} alt="logo" className="mx-auto mt-10" />
       <div className="flex flex-col justify-center items-center mt-10">
         <h1 className="text-2xl md:text-4xl text-gray-500">
           We are launching{" "}
@@ -56,7 +58,7 @@ const App = () => {
         </button>
       </div>
       <img
-        src="/public/assets/illustration-dashboard.png"
+        src={dashboard}
         alt="dashboard"
         className="mx-auto mt-10"
       />

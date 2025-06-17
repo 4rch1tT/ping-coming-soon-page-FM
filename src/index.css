@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "Libre Franklin";
-  src: url(/public/assets/fonts/LibreFranklin-Regular.ttf) format("truetype");
+  src: url(/assets/fonts/LibreFranklin-Regular.ttf) format("truetype");
 }
 
 body {
