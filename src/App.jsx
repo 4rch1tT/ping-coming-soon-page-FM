@@ -23,7 +23,7 @@ const App = () => {
   };
   return (
     <section className="p-10">
-      <img src="./src/assets/logo.svg" alt="logo" className="mx-auto mt-10" />
+      <img src="/public/assets/logo.svg" alt="logo" className="mx-auto mt-10" />
       <div className="flex flex-col justify-center items-center mt-10">
         <h1 className="text-2xl md:text-4xl text-gray-500">
           We are launching{" "}
@@ -56,7 +56,7 @@ const App = () => {
         </button>
       </div>
       <img
-        src="./src/assets/illustration-dashboard.png"
+        src="/public/assets/illustration-dashboard.png"
         alt="dashboard"
         className="mx-auto mt-10"
       />
